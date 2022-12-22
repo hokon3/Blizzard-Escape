@@ -9,3 +9,6 @@ Controls:
 Arrow keys or WASD to move.
 M to mute game.
 ESC to exit game.
+
+
+![alt text](BlizzardEscapeScreenshot.png)
