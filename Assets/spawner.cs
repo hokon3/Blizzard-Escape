@@ -31,6 +31,8 @@ public class spawner : MonoBehaviour
         {
             var spawnCordinates = new Vector2(rightCordinate, Random.Range(bottomCordinate, topCordinate));
             Instantiate(snowFlakePrefab, spawnCordinates, Quaternion.identity);
+            spawnCordinates = new Vector2(rightCordinate, Random.Range(bottomCordinate, topCordinate));
+            Instantiate(snowFlakePrefab, spawnCordinates, Quaternion.identity);
             timer = 0.0f;
             waitTime = Random.Range(minWaitTime, maxWaitTime);
         }

@@ -33,6 +33,10 @@ public class witch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            Application.Quit();
+        }
         if (!started)
         {
             return;
@@ -125,6 +129,6 @@ public class witch : MonoBehaviour
     public void Hit()
     {
         if (speed > 0)
-            speed -= 0.000001F;
+            speed -= 0.000005F;
     }
 }
