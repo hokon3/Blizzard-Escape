@@ -6,6 +6,6 @@ Game builds are located in "GameBuilds" folder.
 See credits text file for credits(didn't have time to sneak this into game itself).
 
 Controls:
-Arrow keys or WASD to move
-M to mute game
-ESC to exit game
+Arrow keys or WASD to move.
+M to mute game.
+ESC to exit game.
